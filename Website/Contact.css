@@ -1,0 +1,144 @@
+h2 {
+    font-size: 80px;
+    line-height: 1;
+    color: green;
+    text-transform: uppercase;
+    border-bottom: 4px solid rgb(250, 141, 7);
+    border-top: 4px solid rgb(250, 141, 7);
+    text-align: center;
+  }
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: green;
+  font-family: Arial;
+  border-bottom: 4px solid rgb(250, 141, 7);
+  border-top: 4px solid rgb(250, 141, 7);
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;
+  
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(250, 141, 7);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#phoneBox, #textBox, #emailBox {  
+  margin-top: 10px;         
+  padding: 10px;            
+  border: 1px solid #ccc;  
+  border-radius: 5px;     
+  background-color: #f9f9f9;  
+  display: none;           
+}
+
+#form-container {
+  max-width: 600px; 
+  margin: 20px auto; 
+  padding: 20px; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  background-color: #fefefe; 
+  font-family: Arial;
+}
+
+#form-container h3 {
+  text-align: center;
+}
+
+#form-container form {
+  margin-bottom: 15px; 
+}
+
+#form-container label {
+    display: inline-block; 
+    margin-bottom: 5px;
+}
+
+#form-container input[type="text"],
+#form-container input[type="email"] {
+    width: calc(100% - 16px); 
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#form-container input[type="radio"] {
+    margin-right: 5px;
+}
+
+#form-container .button-container {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+#form-container button[type="submit"] {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+  
